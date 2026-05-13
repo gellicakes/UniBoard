@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UniBoard</title>
+    <link rel="stylesheet" href="event-details.css">
+  </head>
+
+  <body>
+    <div class="header">
+        <h1>UniBoard</h1>
+        <p>College of Computing Studies</p>
+        <div class="nav">
+          <button>Department</button>
+          <button>Program</button>
+          <a href="uniboard.html">
+          <button>Section</button>
+          </a>
+        </div>
+    </div>
+
+      <div class="containers">
+      <div class="top-bar">
+          <h1 style="color: #5e6472;">Section Announcement</h1>
+      </div>
+          <p style="color: #919191;">Quizzes, activities, projects, and exams for your section</p>
+    </div>
+
+    <div class="event-container">
+      <div class="event-card">
+        <h1 id="title" style="text-align: center;"></h1>
+        <p id="time" style="text-align: center;"></p>
+
+        <div class="event-details">
+          <p id="details" style="text-align:center;"></p>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="comments-section">
+      <h3>Comments</h3>
+
+      <div id="comments"></div>
+
+        <textarea id="input"></textarea>
+        <button onclick="addComment()" style="background: #8da9c4;">Post</button>
+    </div>
+
+    <script src="event-details.js"></script>
+
+  </body>
+</html>

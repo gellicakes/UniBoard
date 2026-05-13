@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UniBoard</title>
+    <link rel="stylesheet" href="addpost.css">
+  </head>
+
+  <body>
+    <div class="header">
+        <h1>UniBoard</h1>
+        <p>College of Computing Studies</p>
+        <div class="nav">
+          <button>Department</button>
+          <button>Program</button>
+          <a href="uniboard.html">
+          <button>Section</button>
+          </a>
+        </div>
+    </div>
+
+    <div class="containers">
+      <div class="top-bar">
+          <h1 style="color: #5e6472;">Section Announcement</h1>
+      </div>
+          <p style="color: #919191;">Quizzes, activities, projects, and exams for your section</p>
+    </div>
+
+  <div class="container">
+    <h2>Add Event</h2>
+
+    <input id="title" placeholder="Event Title">
+    <input id="time" placeholder="Time">
+    <textarea id="details" placeholder="Details"></textarea>
+
+    <a href="uniboard.html">
+    <button onclick="saveEvent()">Submit</button>
+    </a>
+   </div>
+
+  <script src="addpost.js"></script>
+  </body>
+</html>

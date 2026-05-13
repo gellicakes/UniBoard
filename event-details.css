@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f3f3;
+}
+
+.header {
+  background: #142d4c;
+  color: white;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+}
+
+.nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav button {
+  background: #2f4b7c;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.containers {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 10px auto;
+} 
+
+.containers p {
+  margin-top: 0px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h1 {
+  margin: 0;
+}
+
+.event-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.event-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 600px;
+  min-height: 300px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+}
+
+.event-card h1 {
+  margin: 0;
+  color: #142d4c;
+}
+
+.event-details {
+  background: #f7f9fc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+.comment-box {
+  background: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.comment-box button {
+  margin-right: 5px;
+  margin-top: 5px;
+  background: #61a5c2;
+}
+
+.comment-box button:first-of-type {
+  background: #a9d6e5;
+}
+
+.comments-section {
+  width: 600px;
+  margin: 20px auto;
+}
+
+#input {
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 14px;
+}
+
+.reply-box {
+  background: #eef2ff;
+  border-left: 4px solid #2f4b7c;
+  padding: 10px;
+  margin-top: 8px;
+  margin-left: 30px;
+  border-radius: 8px;
+}
