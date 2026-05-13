@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function openEvent(id) {
     localStorage.setItem("selectedEventId", id);
-    window.location.href = "eventdaw.html";
+    window.location.href = "event-details.html";
   }
 
   function deleteEvent(dateKey, id) {
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   localStorage.setItem("selectedDate", formatKey(selectedDate));
 
-  window.location.href = "addpost.html";
+  window.location.href = "add-post.html";
 });
 
   prevBtn.onclick = () => {
